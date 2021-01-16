@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>Pomodoro</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <audio id="audio" src="Audio.mp3" preload="auto"></audio>
+</head>
+
+<body>
+
+    <div id="contenedor-main">
+        <div id="contenedor-trabaja" class="contenedor">
+
+            <!-- Header de 'trabaja' -->
+            <div id="h-trabajo" class="">
+                <h3>Trabajo</h3>
+                <!-- Cronometro de trabajo -->
+                <div id="t-tiempo">
+                    <p id="t-minutos" class="separador">25</p><p id="t-puntos" class="separador">:</p><p id="t-segundos" class="separador">00</p>
+                    <button type="button" id="b-comenzar">Comenzar</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="contenedor-descanso" class="contenedor">
+            <!-- Header de 'descanso' -->
+            <div id="h-descanso" class="">
+                <h3>Descanso</h3>
+                
+                <!-- Cronometro de descanso -->
+                <div id="d-tiempo" class="">
+                    <p id="d-minutos" class="separador">05</p><p id="d-puntos" class="separador">:</p><p id="d-segundos" class="separador">00</p>
+                    <button type="button" id="descanso">Descansar</button>
+
+                    <button type="button" id="b-reiniciar">Reiniciar</button>
+                </div>
+            </div>
+            
+        </div>
+    
+        <div id="contenedor-ciclos" class="contenedor">
+            <!-- Header de 'ciclos' -->
+            <div id="c-contador" class="">
+                <h3>Ciclos</h3>
+                <!-- Contrador de ciclos -->
+                <div class="">
+                    <p id="ciclos" class="separador">00</p>
+                    <button type="button" id="b-detener">Detener</button>
+                </div>
+            </div>
+        </div>
+        
+
+    </div>
+
+    <script src='main.js'></script>
+
+</body>
+
+</html>
