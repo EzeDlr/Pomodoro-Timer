@@ -1,0 +1,62 @@
+#contenedor-main {
+    margin-left: auto;
+    margin-right: auto;
+    display: table; 
+
+    padding: 200px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: flex-end;
+    float: left;
+    font-size: 50px;
+    
+}
+
+button {
+    display: flex;
+    
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+    text-align: center;
+
+    border: none;
+    padding: 15px;
+    font-size: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    cursor: pointer;
+}
+
+h3 {
+    margin: 20px;
+}
+
+body {
+    background-color: black;
+    color: greenyellow;
+}
+
+ .separador {
+    display: inline;
+    text-align: center;
+}    
+
+#b-reiniciar {
+    margin-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: greenyellow;
+}
+
+
+
+/* # << es un selector que se aplica a la id del HTML */
+
